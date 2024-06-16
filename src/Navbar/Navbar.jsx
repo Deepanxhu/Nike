@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import brand_logo from "../assets/brand_logo.png"
 
 function Navbar() {
   return (
       <nav>
         <div className='logo' >
-            <img src="brand_logo.png" alt="logo" />
+            <img src={brand_logo} alt="logo" />
         </div>
 
         <ul>
