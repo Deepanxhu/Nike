@@ -7,7 +7,6 @@ function Navbar() {
       <div className="logo">
         <img src={brand_logo} alt="logo" />
       </div>
-
       <ul>
         <li href="#">MENU</li>
         <li href="#">LOCATION</li>
